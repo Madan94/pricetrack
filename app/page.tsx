@@ -2,7 +2,6 @@ import Image from "next/image";
 import SearchBar from "@/components/SearchBar";
 import HeroCarousel from "@/components/HeroCarousel";
 
-
 const Home=()=>{
   return(
     <>
@@ -10,7 +9,7 @@ const Home=()=>{
           <div className="flex max-xl:flex-col gap-16">
             <div className="flex flex-col justify-center">
               <p className="small-text">
-                Smart Shopping Starts here
+                Smart Shopping Starts here with priceTrack
                 <Image 
                 src="assets/icons/arrow-right.svg"
                 width={20}
